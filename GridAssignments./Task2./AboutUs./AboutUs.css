@@ -1,1 +1,41 @@
+.box {
+     padding: 10px;
+     border: 1px solid black;
+     background-color: bisque;
+ }
 
+ #grid1 {
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     grid-auto-rows: 250px;
+     margin-bottom: 100px;
+ }
+ #image1{
+    grid-column: 2/3;
+    grid-row: 1/3;
+ }
+
+#grid2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 250px;
+    margin-bottom: 100px;
+}
+#paragraph{
+    grid-column: 2/3;
+    grid-row: 1/3;
+}
+
+#grid6 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+}
+
+#logo {
+    grid-row: 1/4;
+}
+
+#copyright {
+    grid-column: 1/3;
+}
